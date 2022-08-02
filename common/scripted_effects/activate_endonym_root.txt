@@ -1,0 +1,6 @@
+activate_endonym_root = { 
+        
+		if = { limit = { ROOT = { is_german_speaking_countries = yes } }
+		    apply_endonyms_german = yes
+		}
+}

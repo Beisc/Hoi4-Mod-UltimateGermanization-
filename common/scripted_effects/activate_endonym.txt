@@ -1,0 +1,6 @@
+activate_endonym = {
+
+        if = { limit = { owner = { is_german_speaking_countries = yes } }
+		    apply_endonyms_german = yes
+		}
+}

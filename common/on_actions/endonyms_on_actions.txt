@@ -1,0 +1,44 @@
+on_actions = {
+
+	on_state_control_changed = {
+		effect = {
+			if = { limit = { owner = { tag = GER } }
+				FROM.FROM = {
+					activate_endonym_root = yes
+				}
+			}
+		}
+	}
+	on_annex = {
+        effect = {
+            if = { limit = { owner = { tag = GER } }
+                FROM.FROM = {
+                    activate_endonym = yes
+                    
+                }
+            }
+        }
+	}
+	
+	on_puppet = {
+        effect = {
+            if = { limit = { owner = { tag = GER } }
+                FROM.FROM = {
+                    activate_endonym = yes
+                    
+                }
+            }
+        }
+	}
+	
+	on_release_as_puppet = {
+        effect = {
+            if = { limit = { owner = { tag = GER } }
+                FROM.FROM = {
+                    activate_endonym = yes
+                    
+                }
+            }
+        }
+	}
+}

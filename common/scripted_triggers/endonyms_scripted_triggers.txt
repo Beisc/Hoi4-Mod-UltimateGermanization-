@@ -1,0 +1,9 @@
+
+is_german_speaking_country = {
+
+	OR = {
+		tag = GER
+	}
+}
+
+

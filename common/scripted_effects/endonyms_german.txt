@@ -1,0 +1,6762 @@
+apply_endonyms_german = {
+
+	if = {
+		##### GERMANY #####
+		limit = {
+			state = 52
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Oberbayern"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 692 name = "München" }
+		set_province_name = { id = 708 name = "Augsburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 54
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Franken"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11544 name = "Nürnberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 51
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rheinland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 587 name = "Köln" }
+		set_province_name = { id = 6469 name = "Essen" }
+	}
+	
+	if = {
+		limit = {
+			state = 50
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Württemberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 9517 name = "Stuttgart" }
+		set_province_name = { id = 11499 name = "Ulm" }
+	}
+	
+	if = {
+		limit = {
+			state = 42
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Moselland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 11531 name = "Saarbrüchen" }
+		set_province_name = { id = 11435 name = "Bitburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 763
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Königsberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 6332 name = "Königsberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 5
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ermland-Masuren"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 6375 name = "Allenstein" }
+	}
+	
+	if = {
+		limit = {
+			state = 67
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Oberschlesien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 9511 name = "Oppeln" }
+		set_province_name = { id = 11467 name = "Gleiwitz" }
+	}
+	
+	if = {
+		limit = {
+			state = 66
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Niederschlesien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 9570 name = "Breslau" }
+	}
+	
+	if = {
+		limit = {
+			state = 68
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ostmark"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 3473 name = "Küstrin" }
+	}
+	
+	if = {
+		limit = {
+			state = 63
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Hinterpommern"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 6282 name = "Stettin" }
+		set_province_name = { id = 11372 name = "Köslin" }
+	}
+	
+	if = {
+		limit = {
+			state = 62
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Vorpommern"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 9388 name = "Stralsund" }
+	}
+	
+	if = {
+		limit = {
+			state = 61
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Mecklenburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 321 name = "Rostock" }
+		set_province_name = { id = 11305 name = "Lübeck" }
+	}
+	
+	if = {
+		limit = {
+			state = 65
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Sachsen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 3535 name = "Leipzig" }
+		set_province_name = { id = 514 name = "Dresden" }
+	}
+	
+	if = {
+		##### AUSTRIA #####
+		limit = {
+			state = 4
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Niederösterreich"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_french
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_hungarian
+		
+		set_province_name = { id = 11666 name = "Wien" }
+		set_province_name = { id = 9648 name = "Graz" }
+	}
+	
+	if = {
+		limit = {
+			state = 152
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Oberösterreich"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_french
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_hungarian
+		
+		set_province_name = { id = 688 name = "Salzburg" }
+		set_province_name = { id = 9665 name = "Wels" }
+		set_province_name = { id = 732 name = "Linz" }
+		set_province_name = { id = 3673 name = "Klagenfurt" }
+	}
+
+	if = {
+		##### POLAND #####
+		limit = {
+			state = 85										### Danzig
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Danzig"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = {
+			id = 362
+			name = "Danzig"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 86										### Poznan
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Posen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6558 name = "Posen" }
+	}
+	
+	if = {
+		limit = {
+			state = 87										### Lodz
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Litzmannstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9508 name = "Litzmannstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 98										### Plock
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Plozk"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3230 name = "Plozk" }
+	}
+	
+	if = {
+		limit = {
+			state = 10										### Warsaw
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Warschau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3544 name = "Warschau" }
+		set_province_name = { id = 402 name = "Schedlitz" }
+	}
+	
+	if = {
+		limit = {
+			state = 97										### Bialystok
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bjelostoch"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11301 name = "Bjelostoch" }
+		set_province_name = { id = 3254 name = "Suwalken" }
+	}
+	
+	if = {
+		limit = {
+			state = 90										### Kielce
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kielitz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11430 name = "Kielitz" }
+		set_province_name = { id = 3458 name = "Radom" }
+	}
+	
+	if = {
+		limit = {
+			state = 762										### Katowice
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kattowitz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_romanian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 6464 name = "Kattowitz" }
+	}
+	
+	if = {
+		limit = {
+			state = 88										### Krakow
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Krakau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_romanian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 9427 name = "Krakau" }
+		set_province_name = { id = 442 name = "Tarnau" }
+	}
+	
+	if = {
+		limit = {
+			state = 94										### Polesie
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Polessien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		
+		set_province_name = { id = 3392 name = "Neubrest" }
+		set_province_name = { id = 560 name = "Pinsk" }
+	}
+	
+	if = {
+		limit = {
+			state = 95										### Nowogrodek
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neugrund"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		
+		set_province_name = { id = 9304 name = "Baronenwald" }
+		set_province_name = { id = 3393 name = "Garten" }
+	}
+	
+	if = {
+		limit = {
+			state = 784										### Wilno
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wilna"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		
+		set_province_name = { id = 3320 name = "Wilna" }
+	}
+	
+	if = {
+		limit = {
+			state = 93										### Wolyn
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wolhynien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		
+		set_province_name = { id = 6557 name = "Rowno" }
+	}
+	
+	if = {
+		limit = {
+			state = 91										### Lwow
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lemberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		
+		set_province_name = { id = 11479 name = "Lemberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 89										### Stanislawow
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Stanislau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		
+		set_province_name = { id = 11411 name = "Stanislau" }
+	}
+	
+	if = {
+		##### LITHUANIA #####
+		limit = {
+			state = 188
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Memel"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 3288 name = "Memel" }
+	}
+	
+	if = {
+		limit = {
+			state = 189
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Schaulen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 9483 name = "Schaulen" }
+		set_province_name = { id = 6314 name = "Polangen" }
+	}
+	
+	if = {
+		limit = {
+			state = 11
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kauen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		
+		set_province_name = { id = 6296 name = "Kauen" }
+	}
+	
+	if = {
+		limit = {
+			state = 814
+			NOT = { has_state_flag = state_name_lithuanian }
+		}
+		set_state_name = "Scheddau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		
+		set_province_name = { id = 11312 name = "Mariampol" }
+	}
+	
+	if = {
+		limit = {
+			state = 815
+			NOT = { has_state_flag = state_name_lithuanian }
+		}
+		set_state_name = "Alitten"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		
+		set_province_name = { id = 6229 name = "Ponewiesch" }
+	}
+	
+	if = {
+		##### LATVIA #####
+		limit = {
+			state = 190
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kurland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		
+		set_province_name = { id = 9262 name = "Libau" }
+	}
+	
+	if = {
+		limit = {
+			state = 12
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Livland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		
+		set_province_name = { id = 9340 name = "Riga" }
+		set_province_name = { id = 310 name = "Dünaburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 809
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Semgallen"
+		
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_polish
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_belarusian
+		
+		set_province_name = { id = 6222 name = "Mitau" }
+		set_province_name = { id = 3255 name = "Jakobstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 810
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lettgallen"
+		
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_polish
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_belarusian
+		
+		set_province_name = { id = 310 name = "Dünaburg" }
+		set_province_name = { id = 222 name = "Rositten" }
+	}
+	
+	if = {
+		##### CZECHOSLOVAKIA #####
+		limit = {
+			state = 74
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ostrau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3583 name = "Ostrau" }
+	}
+	
+	if = {
+		limit = {
+			state = 69
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Sudetenland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3585 name = "Karlsbad" }
+		set_province_name = { id = 11401 name = "Reichenberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 72
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Olsagebiet"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+	}
+	
+	if = {
+		limit = {
+			state = 9
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Böhmen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11542 name = "Prag" }
+		set_province_name = { id = 6418 name = "Pilsen" }
+		set_province_name = { id = 9569 name = "Taber" }
+	}
+	
+	if = {
+		limit = {
+			state = 75
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Mähren"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3569 name = "Brünn" }
+		set_province_name = { id = 6562 name = "Olmütz" }
+	}
+	
+	if = {
+		limit = {
+			state = 70
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Westslowakei"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9692 name = "Pressburg" }
+		set_province_name = { id = 11539 name = "Silein" }
+	}
+	
+	if = {
+		limit = {
+			state = 71
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ostslowakei"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3581 name = "Preschau" }
+	}
+	
+	if = {
+		limit = {
+			state = 664
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Südslowakei"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6573 name = "Kaschau" }
+	}
+	
+	if = {
+		limit = {
+			state = 73
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Transkarpathien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3548 name = "Munkatsch" }
+	}
+	
+	if = {
+		##### YUGOSLAVIA #####
+		limit = {
+			state = 102
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Slowenien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 9627 name = "Laibach" }
+	}
+	
+	if = {
+		limit = {
+			state = 109
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kroatien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 11581 name = "Agram" }
+	}
+	
+	if = {
+		limit = {
+			state = 103
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Dalmatien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 11564 name = "Flaum" }
+		set_province_name = { id = 3924 name = "Split" }
+	}
+	
+	if = {
+		limit = {
+			state = 45
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wojwodina"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_romanian
+		
+		set_province_name = { id = 619 name = "Neusatz" }
+	}
+	
+	if = {
+		limit = {
+			state = 107
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Mittelserbien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_romanian
+		
+		set_province_name = { id = 11586 name = "Weißenburg" }
+	}
+	
+	if = {
+		##### ROMANIA #####
+		limit = {
+			state = 82
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Banat"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_romanian
+		
+		set_province_name = { id = 9606 name = "Temeschwar" }
+	}
+	
+	if = {
+		limit = {
+			state = 83
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kreischland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_romanian
+		
+		set_province_name = { id = 6682 name = "Arad" }
+	}
+	
+	if = {
+		limit = {
+			state = 76
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordtransilvanien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_romanian
+		
+		set_province_name = { id = 6711 name = "Klausenburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 84
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Siebenbürgen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_romanian
+		
+		set_province_name = { id = 690 name = "Kronstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 80
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bukowina"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_romanian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 577 name = "Czernowitz" }
+	}
+	
+	if = {
+		##### HUNGARY #####
+		limit = {
+			state = 155
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Donauland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 11610 name = "Fünfkirchen" }
+	}
+	
+	if = {
+		limit = {
+			state = 43
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordungarn"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 9660 name = "Budapest" }
+	}
+	
+	if = {
+		limit = {
+			state = 154
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Niederungarn"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		
+		set_province_name = { id = 11659 name = "Debrezin" }
+	}
+	
+	if = {
+		##### ITALY #####
+		limit = {
+			state = 39
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Südtirol"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		
+		set_province_name = { id = 11598 name = "Bozen" }
+	}
+	
+	if = {
+		limit = {
+			state = 736
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Istrien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		
+		set_province_name = { id = 6626 name = "Triest" }
+	}
+	
+	if = {
+		limit = {
+			state = 160
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Venedig"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		
+		set_province_name = { id = 11584 name = "Venedig" }
+	}
+	
+	if = {
+		limit = {
+			state = 159
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lombardei"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		
+		set_province_name = { id = 3780 name = "Mailand" }
+	}
+	
+	if = {
+		##### FRANCE #####
+		limit = {
+			state = 28
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Elsaß-Lothringen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 9503 name = "Straßburg" }
+		set_province_name = { id = 678 name = "Mülhausen" }
+	}
+	
+	if = {
+		limit = {
+			state = 17
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Burgund"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 11516 name = "Nanzig" }
+		set_province_name = { id = 9642 name = "Bisanz" }
+	}
+	
+	if = {
+		limit = {
+			state = 27
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Niederburgund"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 3652 name = "Dision" }
+	}
+	
+	if = {
+		limit = {
+			state = 20
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rotten"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 6613 name = "Leyden" }
+	}
+	
+	if = {
+		limit = {
+			state = 21
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ostokzitanien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 11834 name = "Massilien" }
+		set_province_name = { id = 911 name = "Telon" }
+	}
+	
+	if = {
+		limit = {
+			state = 32
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Alpenwestland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_hungarian
+		clr_state_flag = state_name_czech
+		clr_state_flag = state_name_yugoslav
+		clr_state_flag = state_name_italian
+		clr_state_flag = state_name_french
+		
+		set_province_name = { id = 3768 name = "Graswalde" }
+	}
+	
+	if = {
+	    ##### PLUSPOLAND #####
+		limit = {
+			state = 807										
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bromberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 279 name = "Bromberg" }
+		set_province_name = { id = 3295 name = "Thorn" }
+	}
+	
+	if = {
+		limit = {
+			state = 92										
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lüben"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11399 name = "Lüben" }
+	}
+	
+	if = {
+		limit = {
+			state = 96										### X
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Adolfstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 406 name = "Adolfstadt" }
+	}
+	
+	if = {
+	    ##### ESTONIA #####
+		limit = {
+			state = 811										
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ösel"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 185 name = "Arensburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 13									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pernau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3174 name = "Pernau" }
+	}
+	
+	if = {
+		limit = {
+			state = 191									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Dorpat"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9221 name = "Dorpat" }
+		set_province_name = { id = 592 name = "Werro" }
+	}
+	
+	if = {
+		limit = {
+			state = 813									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Paulenhof"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11127 name = "Wesenberg" }
+		set_province_name = { id = 4640 name = "Hungerburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 812								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "St. Johannes"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3152 name = "Revaly" }
+	}
+	
+	if = {
+	    ##### RUSSIAUKRAINE #####
+		limit = {
+			state = 199							
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bugenau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3457 name = "Bugenau" }
+	}
+	
+	    if = {
+		limit = {
+			state = 201						
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Friedenwald"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6593 name = "Friedenwald" }
+	}
+	
+	    if = {
+		limit = {
+			state = 194								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Mering"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6232 name = "Mering" }
+	}
+	
+	    if = {
+		limit = {
+			state = 202									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kiroffo"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 525 name = "Kiroffo" }
+	}
+	
+	    if = {
+		limit = {
+			state = 198									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Winniza"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 476 name = "Winniza" }
+	}
+	
+	    if = {
+		limit = {
+			state = 834								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Hirtenheim"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3757 name = "Balt" }
+		set_province_name = { id = 741 name = "Hirtenheim" }
+	}
+	
+	    if = {
+		limit = {
+			state = Bockstadt							
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "192"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11670 name = "Bockstadt" }
+	}
+	
+	    if = {
+		limit = {
+			state = 203								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kosakenstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 488 name = "Kosakenstadt" }
+	}
+	
+	    if = {
+		limit = {
+			state = 197								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Greuthunger-Nikolaus"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11683 name = "Greuthunger-Nikolaus" }
+	}
+	
+	    if = {
+		limit = {
+			state = 196									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Cherson"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 721 name = "Cherson" }
+	}
+	
+	    if = {
+		limit = {
+			state = 226									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rufstein"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11561 name = "Siegen" }
+		set_province_name = { id = 11437 name = "Rufstein" }
+	}
+	
+	    if = {
+		limit = {
+			state = 200								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Saporoschie"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11405 name = "Saporoschie" }
+	}
+	
+	    if = {
+		limit = {
+			state = 227									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Donezstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6474 name = "Donezstadt" }
+	}
+	
+	    if = {
+		limit = {
+			state = 228									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Lausitz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9461 name = "Neu-Lausitz" }
+	}
+	
+	    if = {
+		limit = {
+			state = 221									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Karkau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 418 name = "Karkau" }
+	}
+	
+	    if = {
+		limit = {
+			state = 259									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Poltawien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11504 name = "Poltawien" }
+	}
+	
+	    if = {
+		limit = {
+			state = 193									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Tschernigau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3568 name = "Tschernigau" }
+	}
+	
+	    if = {
+		limit = {
+			state = 225									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Sumen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9566 name = "Chostkau" }
+		set_province_name = { id = 3520 name = "Sumen" }
+	}
+	
+	if = {
+	    ##### RUSSIABELARUS #####
+		limit = {
+			state = 206						
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Minden"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11370 name = "Minden" }
+		set_province_name = { id = 2289 name = "Mogilau" }
+	}
+	
+	    if = {
+		limit = {
+			state = Biberach									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "204"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11313 name = "Gorkstadt" }
+		set_province_name = { id = 3350 name = "Biberach" }
+	}
+	
+	    if = {
+		limit = {
+			state = 241									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Homiewen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9288 name = "Homiewen" }
+	}
+	
+	    if = {
+		limit = {
+			state = 207								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Weißenbau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11241 name = "Weißenbau" }
+	}
+	
+	if = {
+	    ##### RUSSIASOVIET #####
+		limit = {
+			state = 137				
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Theodorichshafen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3686 name = "Theodorichshafen" }
+		set_province_name = { id = 6704 name = "Galita" }
+		set_province_name = { id = 9680 name = "Bospor" }
+	}
+	
+	    if = {
+		limit = {
+			state = 234									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wilhelmstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3734 name = "Wilhelmstadt" }
+		set_province_name = { id = 719 name = "Neu-Roswien" }
+		set_province_name = { id = 3720 name = "Köpenschaffen" }
+	}
+	
+	if = {
+		limit = {
+			state = 218									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rostofa"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9417 name = "Rostofa" }
+	}
+	
+	if = {
+		limit = {
+			state = 233									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bergstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9663 name = "Bergstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 826									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Abchasien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11617 name = "Abchasien" }
+	}
+	
+	if = {
+		limit = {
+			state = 231									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Georgien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1599 name = "Tbilisien" }
+		set_province_name = { id = 3653 name = "Batau" }
+	}
+	
+	if = {
+		limit = {
+			state = 230									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Armenianland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12320 name = "Yerevacht" }
+		set_province_name = { id = 12441 name = "Grumte" }
+	}
+	
+	if = {
+		limit = {
+			state = 229								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Öland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7661 name = "Windenstadt" }
+		set_province_name = { id = 11674 name = "Wilhelm-Galwitz" }
+	}
+	
+	if = {
+		limit = {
+			state = 232								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Dagenstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6701 name = "Dagenstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 821								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Grodno"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3672 name = "Grodno" }
+	}
+	
+	if = {
+		limit = {
+			state = 828									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordossetien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9628 name = "Nordossetien" }
+	}
+	
+	if = {
+		limit = {
+			state = 827								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kabardino-Balkarien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11614 name = "Nalchshafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 235									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Schtravonheiß"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11696 name = "Schtravonheiß" }
+	}
+	
+	if = {
+		limit = {
+			state = 237								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kalmibahën"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11724 name = "Elistadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 238									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wolgodonsk"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 775 name = "Salswien" }
+	}
+	
+	if = {
+		limit = {
+			state = 236									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Letzte-Wolgastadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9753 name = "Letzte-Wolgastadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 217								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Hindenburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3529 name = "Hindenburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 245									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Müllerau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11476 name = "Müllerau" }
+	}
+	
+	if = {
+		limit = {
+			state = 265								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Michailaue"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 487 name = "Michailaue" }
+	}
+	
+	if = {
+		limit = {
+			state = 260								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Woronesch"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 413 name = "Woronesch" }
+	}
+	
+	if = {
+		limit = {
+			state = 257									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Tambau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11351 name = "Tambau" }
+	}
+	
+	if = {
+		limit = {
+			state = 254								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rayzenvich"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11248 name = "Rayzenvich" }
+	}
+	
+	if = {
+		limit = {
+			state = 219								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Moskau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6380 name = "Moskau" }
+	}
+	
+	if = {
+		limit = {
+			state = 247								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Königstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6245 name = "Königstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 264									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Tikenvisch"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3140 name = "Tikenvisch" }
+	}
+	
+	if = {
+		limit = {
+			state = 240									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Weißenstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9449 name = "Weißenstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 220									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kaisenberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3580 name = "Kaisenberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 258								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Libach"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6398 name = "Libach" }
+	}
+	
+	if = {
+		limit = {
+			state = 224									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Waldemarstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3335 name = "Waldemarstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 222									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Örel"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9355 name = "Örel" }
+	}
+	
+	if = {
+		limit = {
+			state = 223									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Tülenshafen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6262 name = "Tülenshafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 205								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kalün"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 382 name = "Kalün" }
+	}
+	
+	if = {
+		limit = {
+			state = 243									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Roslavenland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11336 name = "Roslavenland" }
+	}
+	
+	if = {
+		limit = {
+			state = 242								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Smolenskau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 306 name = "Smolenskau" }
+	}
+	
+	if = {
+		limit = {
+			state = 246									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rewen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11349 name = "Rewen" }
+	}
+	
+	if = {
+		limit = {
+			state = 210									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Wen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11234 name = "Walken" }
+	}
+	
+	if = {
+		limit = {
+			state = 209									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pleskau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11202 name = "Pleskau" }
+	}
+	
+	if = {
+		limit = {
+			state = 263								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Naugard"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 117 name = "Naugard" }
+	}
+	
+	if = {
+		limit = {
+			state = 208									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lügen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9098 name = "Lügen" }
+	}
+	
+	if = {
+		limit = {
+			state = 244								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Volkstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9197 name = "Neu-Volkstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 195									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ludendorffshafen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3151 name = "Ludendorffshafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 216							
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Onoletz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11159 name = "Petrostadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 215								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Onawich"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 213									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Murmau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3134 name = "Murmau" }
+		set_province_name = { id = 6181 name = "Kandau" }
+	}
+	
+	if = {
+		limit = {
+			state = 214									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Arkanstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3338 name = "Arkanstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 351								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wosnech"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9131 name = "Wosnech" }
+	}
+	
+	if = {
+		limit = {
+			state = 248									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Yaroschaffen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 121 name = "Yaroschaffen" }
+	}
+	
+	if = {
+		limit = {
+			state = 253									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ivansbach"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6269 name = "Ivansbach" }
+	}
+	
+	if = {
+		limit = {
+			state = 825								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Hafen von Kaiser"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 105 name = "Hafen von Kaiser" }
+	}
+	
+	if = {
+		limit = {
+			state = 262									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pechau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 397								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Balzer"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 108 name = "Balzer" }
+	}
+	
+	if = {
+		limit = {
+			state = 581								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordural"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 239								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Saratau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3578 name = "Saratau" }
+	}
+	
+	if = {
+		limit = {
+			state = 255								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pensa"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9258 name = "Pensa" }
+	}
+	
+	if = {
+		limit = {
+			state = 252								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Gorkendorf"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11375 name = "Gorkendorf" }
+	}
+	
+	if = {
+		limit = {
+			state = 400									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kirau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6124 name = "Kirau" }
+	}
+	
+	if = {
+		limit = {
+			state = 833									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Olanbach"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9402 name = "Olanbach" }
+	}
+	
+	if = {
+		limit = {
+			state = 829									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kaiserstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11523 name = "Engels" }
+		set_province_name = { id = 9432 name = "Kaiserstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 256								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Hebach"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9259 name = "Hebach" }
+	}
+	
+	if = {
+		limit = {
+			state = 250									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lanowstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 392 name = "Lanowstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 399								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Izwendorf"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6278 name = "Izwendorf" }
+	}
+	
+	if = {
+		limit = {
+			state = 249									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kazanshafen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6338 name = "Kazanshafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 251								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kübßstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11225 name = "Kübßstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 401								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Balakau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6502 name = "Balakau" }
+	}
+	
+	if = {
+		limit = {
+			state = 406								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Gürau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3618 name = "Gürau" }
+	}
+	
+	if = {
+		limit = {
+			state = 407									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Letzte-Grenze"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11537 name = "Letzte-Grenze" }
+	}
+	
+	if = {
+		limit = {
+			state = 651									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Uraler-Fuß"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1278 name = "Uraler-Fuß" }
+		set_province_name = { id = 4354 name = "Stawmahoß" }
+	}
+	
+	if = {
+		limit = {
+			state = 398									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Perwsburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7375 name = "Perwsburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 573									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Zentral-Ural"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 10329 name = "Zatau" }
+	}
+	
+	if = {
+	    ##### DENMARK #####
+		limit = {
+			state = 37						
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Seeland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6287 name = "Copenwagen" }
+		set_province_name = { id = 3325 name = "Odense" }
+	}
+	
+	if = {
+		limit = {
+			state = 99									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Jutland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6364 name = "Arhaus" }
+	}
+	
+	if = {
+		limit = {
+			state = 100									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Island"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12674 name = "Eishafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 101									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Grönland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+	    ##### FRANCEPLUS #####
+		limit = {
+			state = 18					
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Schalun"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 13011 name = "Riemen" }
+		set_province_name = { id = 9490 name = "Troos" }
+		set_province_name = { id = 3560 name = "Esdang" }
+	}
+	
+	if = {
+		limit = {
+			state = 29									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nord-Kalen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 575 name = "Dünkirchen" }
+		set_province_name = { id = 11548 name = "Kalenstadt" }
+		set_province_name = { id = 11483 name = "Reißel" }
+	}
+	
+	if = {
+		limit = {
+			state = 785									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Amiäng"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11420 name = "Amiäng" }
+	}
+	
+	if = {
+		limit = {
+			state = 16									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Parisiuß"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11506 name = "Parisiuß" }
+	}
+	
+	if = {
+		limit = {
+			state = 15									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Normanland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9434 name = "Neu-Hawrau" }
+		set_province_name = { id = 485 name = "Diestadt" }
+		set_province_name = { id = 11563 name = "Rawen" }
+		set_province_name = { id = 6449 name = "Cherburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 14								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Birkenfurt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3552 name = "Birkenfurt" }
+		set_province_name = { id = 6536 name = "Lorenwert" }
+		set_province_name = { id = 9495 name = "Rengen" }
+	}
+	if = {
+		limit = {
+			state = 24								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Zentrum"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3671 name = "Touren" }
+		set_province_name = { id = 512 name = "Hohenzollern" }
+	}
+	
+	if = {
+		limit = {
+			state = 30								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lüdersdorf"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11465 name = "Werteß" }
+	}
+	
+	if = {
+		limit = {
+			state = 33								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Zentrum-Süd"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 651 name = "Großschaffnat" }
+	}
+	
+	if = {
+		limit = {
+			state = 23									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Fern-West"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6657 name = "Felz" }
+	}
+	
+	if = {
+		limit = {
+			state = 19									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Fern-West Süd"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9737 name = "Wilhelmstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 26									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Waldshafen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3594 name = "Waldshafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 25									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lünheim"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 620 name = "Lünheim" }
+	}
+	
+	if = {
+		limit = {
+			state = 806									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Atlantische-Stadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9710 name = "Bernhofen" }
+	}
+	
+	if = {
+		limit = {
+			state = 31								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Tolenberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6766 name = "Tolenberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 22								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Munpetun"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9898 name = "Munpetun" }
+	}
+	
+	if = {
+		limit = {
+			state = 32								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Alpen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3768 name = "Graswalde" }
+	}
+	
+	if = {
+		limit = {
+			state = 735									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Schefferantz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9909 name = "Nizza" }
+		set_province_name = { id = 778 name = "Erzett" }
+	}
+	
+	if = {
+		limit = {
+			state = 21									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Brovotzer"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11834 name = "Massilien" }
+		set_province_name = { id = 911 name = "Telon" }
+	}
+	
+	if = {
+		limit = {
+			state = 151									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ost-Alpen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 663 name = "Zürich" }
+	}
+	
+	if = {
+	    ##### MAISITALY #####
+		limit = {
+			state = 158				
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Piemont"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6788 name = "Genua" }
+		set_province_name = { id = 6780 name = "Türen" }
+	}
+	
+	if = {
+		limit = {
+			state = 161								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bolognen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6606 name = "Bolognen" }
+	}
+	
+	if = {
+	    ##### GREECE #####
+		limit = {
+			state = 182				
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kreta"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9440 name = "Heraklau" }
+		set_province_name = { id = 12058 name = "Hans" }
+	}
+	
+	if = {
+		limit = {
+			state = 47								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Griechenland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4109 name = "Athen" }
+		set_province_name = { id = 3988 name = "Korinth" }
+		set_province_name = { id = 7127 name = "Chakau" }
+		set_province_name = { id = 4109 name = "Erika" }
+	}
+	
+	if = {
+		limit = {
+			state = 186								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pöwoneß"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11965 name = "Kalensberg" }
+		set_province_name = { id = 7096 name = "Argen" }
+		set_province_name = { id = 7211 name = "Patra" }
+	}
+	
+	if = {
+		limit = {
+			state = 185									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Epizen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3914 name = "Iohanstadt" }
+		set_province_name = { id = 10203 name = "Korfu" }
+		set_province_name = { id = 1205 name = "Agren" }
+	}
+	
+	if = {
+		limit = {
+			state = 731									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Zentralmakedonien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11818 name = "Teßeenbach" }
+	}
+	
+	if = {
+		limit = {
+			state = 187								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ägäische Inseln"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 8435 name = "Mütenstein" }
+		set_province_name = { id = 6550 name = "Söm" }
+	}
+	
+	if = {
+		limit = {
+			state = 184									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Thrakien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11905 name = "Thrakienstadt" }
+	}
+	
+	if = {
+	    ##### ENGLANDISLES #####
+		limit = {
+			state = 127			
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Südsachsen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3501 name = "Tauber" }
+		set_province_name = { id = 9458 name = "Pforzmund" }
+	}
+	
+	if = {
+		limit = {
+			state = 123									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kornwalen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 540 name = "Pflaummund" }
+		set_province_name = { id = 6526 name = "Furtrot" }
+	}
+	
+	if = {
+		limit = {
+			state = 126									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Groß-Lunden"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6103 name = "Lunden" }
+	}
+	
+	if = {
+		limit = {
+			state = 338									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Brükenstau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3369 name = "Brükenstau" }
+	}
+	
+	if = {
+		limit = {
+			state = 122									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Walchen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 311 name = "Wrechensheim" }
+		set_province_name = { id = 377 name = "Barrig" }
+		set_province_name = { id = 407 name = "Schweinsau" }
+	}
+	
+	if = {
+		limit = {
+			state = 128									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "West-Mittelland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9297 name = "Bermingheim" }
+	}
+	
+	if = {
+		limit = {
+			state = 125								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ost-Anglen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 322 name = "Nordfolk" }
+	}
+	
+	if = {
+		limit = {
+			state = 129									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ost-Mittelland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11279 name = "Leukaster" }
+		set_province_name = { id = 6237 name = "Nossingheim" }
+	}
+	if = {
+		limit = {
+			state = 132								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Lankastscheier"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6384 name = "Leberpfuhl" }
+		set_province_name = { id = 6318 name = "Mankaster" }
+	}
+	
+	if = {
+		limit = {
+			state = 130								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Yorchscheier"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9315 name = "Schaubfeld" }
+		set_province_name = { id = 9379 name = "Leuten" }
+		set_province_name = { id = 11279 name = "Königszaun-von-Hohl" }
+	}
+	
+	if = {
+		limit = {
+			state = 131								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordengland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11332 name = "Karlugwal" }
+		set_province_name = { id = 351 name = "Neuenkastell" }
+	}
+	
+	if = {
+		limit = {
+			state = 121									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Süd-Ost-Schottland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9392 name = "Edimburg" }
+		set_province_name = { id = 6300 name = "Rosünbach" }
+	}
+	
+	if = {
+		limit = {
+			state = 133									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Süd-West-Schottland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11218 name = "Zaunfries" }
+		set_province_name = { id = 3273 name = "Glasgow" }
+	}
+	
+	if = {
+		limit = {
+			state = 120									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nord-West-Schottland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 284 name = "Schottisches Land" }
+		set_province_name = { id = 9075 name = "Winterburg" }
+		set_province_name = { id = 11064 name = "Abflusstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 136								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nord-Ost-Schottland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3150 name = "Dunden" }
+		set_province_name = { id = 200 name = "Abürdawas" }
+	}
+	
+	if = {
+		##### IRELAND #####
+		limit = {
+			state = 119									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordirland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3379 name = "Belföß" }
+		set_province_name = { id = 385 name = "Kleines-Lunden" }
+	}
+	
+	if = {
+		limit = {
+			state = 113								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Leinstein"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11293 name = "Düblen" }
+		set_province_name = { id = 285 name = "Wechstadt" }
+		set_province_name = { id = 303 name = "Mansteinstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 134									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Konichtsland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11371 name = "Slügen" }
+		set_province_name = { id = 9303 name = "Galwegen" }
+	}
+	
+	if = {
+		limit = {
+			state = 135									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Münstein"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7394 name = "Karl" }
+		set_province_name = { id = 6313 name = "Limenberg" }
+	}
+	
+	if = {
+		##### FINISHINGROMANIA #####
+		limit = {
+			state = 82									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Temeschburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9606 name = "Temeschburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 80								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Tschernowitz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 577 name = "Tschernowitz" }
+	}
+	
+	if = {
+		limit = {
+			state = 79								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Galatz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9716 name = "Jassy" }
+		set_province_name = { id = 6706 name = "Galatz" }
+	}
+	
+	if = {
+		limit = {
+			state = 78									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Schulzheim"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11686 name = "Kischinew" }
+	}
+	
+	if = {
+		limit = {
+			state = 766									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Akkerman"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6727 name = "Akkerman" }
+	}
+	
+	if = {
+		limit = {
+			state = 81									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kragau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6652 name = "Kragau" }
+	}
+	
+	if = {
+		limit = {
+			state = 46									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bukaresten"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9617 name = "Bukaresten" }
+		set_province_name = { id = 3663 name = "Pütertadt" }
+		set_province_name = { id = 657 name = "Konstanza" }
+	}
+	
+	if = {
+		limit = {
+			state = 77									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Drowensbach"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11597 name = "Drowensbach" }
+	}
+	
+	if = {
+		##### FINISHINGYUGOSLAVIA #####
+		limit = {
+			state = 764									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pantschowa"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3614 name = "Pantschowa" }
+	}
+	
+	if = {
+		limit = {
+			state = 104									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bosnisches Land"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6983 name = "Lukenburg" }
+		set_province_name = { id = 11899 name = "Sechenfeld" }
+	}
+	
+	if = {
+		limit = {
+			state = 804									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Friedrichsburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9894 name = "Friedrichsburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 105									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Dunkerberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9809 name = "Dunkerberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 107									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Belgrad"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11586 name = "Belgrad" }
+	}
+	
+	if = {
+		limit = {
+			state = 108									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nisch"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9602 name = "Nisch" }
+	}
+	
+	if = {
+		limit = {
+			state = 802									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Prinz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6940 name = "Prinz" }
+	}
+	
+	if = {
+		limit = {
+			state = 803									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Leskau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 11857 name = "Leskau" }
+	}
+	
+	if = {
+		limit = {
+			state = 106									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Skophertz"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3882 name = "Skophertz" }
+	}
+	
+	if = {
+		##### ALBANIA #####
+		limit = {
+			state = 44									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Türanen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9914 name = "Türanen" }
+		set_province_name = { id = 11767 name = "Vlören" }
+	}
+	
+	if = {
+		limit = {
+			state = 805									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nord-Epirus"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 914 name = "Epirustadt" }
+	}
+	
+	if = {
+		##### EXTENDEDFORMERGERMANCOLONIESMITTELAFRIKA #####
+		limit = {
+			state = 295							
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Vorbeck-Dorf"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 5117 name = "Vorbeck-Dorf" }
+	}
+	
+	if = {
+		limit = {
+			state = 538									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Zentralkongo"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 718									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ostkongo"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 768									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Vanden"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9962 name = "Kigau" }
+	}
+	
+	if = {
+		limit = {
+			state = 769									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Mittelstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 2220 name = "Mittelstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 546									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Deutsch-Ostafrika"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 2196 name = "Dar-Es-Salaam" }
+	}
+	
+	if = {
+		limit = {
+			state = 771									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Zünswerft"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 5199 name = "Zünswerft" }
+	}
+	
+	if = {
+		limit = {
+			state = 541									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Deutsch-Südwestafrika"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4879 name = "Windhuk" }
+	}
+	
+	if = {
+		limit = {
+			state = Koesterland									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "796"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 2115 name = "Koesterhafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 540									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Angsburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 8248 name = "Prinz-Heinrich-von-Preußenhafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 544									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Deutsch-Südostafrika"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 770									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kaiseraue"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12986 name = "Kaiseraue" }
+	}
+	
+	if = {
+		limit = {
+			state = 545									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rhodesien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 10929 name = "Salenburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 542									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Betchuana-Land"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 8214 name = "Betchuana-Land" }
+	}
+	
+	if = {
+		limit = {
+			state = 681									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kap"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12589 name = "Kapstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 275									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Transberg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 10400 name = "Stadt im fernen Süden" }
+	}
+	
+	if = {
+		limit = {
+			state = 719									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Knorrland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1468 name = "Kaiserhafen" }
+		set_province_name = { id = 4696 name = "Knorrhafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 772								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordwestkongo"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 8193 name = "Brazenburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 539									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Holtzendorffland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 5139 name = "Holtzendorffhafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 708									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Westlicher Madagaskar-Archipel"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 543									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Madagaskar"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 5128 name = "Antköscht" }
+	}
+	
+	if = {
+		limit = {
+			state = 704									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Sankt Germania"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 703									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Aufstieg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 548									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kampenland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12989 name = "Kampen" }
+	}
+	
+	if = {
+		limit = {
+			state = 297									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Äquatorialguinea"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1903 name = "Hollmannhafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 660									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Äquatoriales Afrika"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 773									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kamerun"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 2080 name = "Yandenvich" }
+	}
+	
+	if = {
+		limit = {
+			state = 558									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nigerien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 2050 name = "Seen" }
+	}
+	
+	if = {
+		limit = {
+			state = 776									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Dahau"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 777								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Togoland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1951 name = "Lomann" }
+	}
+	
+	if = {
+		limit = {
+			state = 274								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ganna"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 10862 name = "Accren" }
+	}
+	
+	if = {
+		limit = {
+			state = 774									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ödland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 2081 name = "Wüstestadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 547								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Khenia"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1939 name = "Nairen" }
+		set_province_name = { id = 5210 name = "Bibranhafen" }
+	}
+	
+	if = {
+	    #####NORTHAMERICA#####
+		limit = {
+			state = 366									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Blumenland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1843 name = "Gewinnestadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 365								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Georgia"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12384 name = "Ambrosious" }
+	}
+	
+	if = {
+		limit = {
+			state = 363									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordcaroliner"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7138 name = "Welser" }
+	}
+	
+	if = {
+		limit = {
+			state = 364									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Südcaroliner"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7202 name = "Göringstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 362									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Jungfraulichia"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 788 name = "Nordenvolk" }
+		set_province_name = { id = 10412 name = "Reichmund" }
+	}
+	
+	if = {
+		limit = {
+			state = 367									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pflanzensammler"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7480 name = "Mobil" }
+		set_province_name = { id = 12735 name = "Bärtholomaus" }
+	}
+	
+	if = {
+		limit = {
+			state = 370								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Großartigfluss"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4464 name = "Golfhafen" }
+	}
+	
+	if = {
+		limit = {
+			state = 371									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wilhelmiana"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7552 name = "Neu-Aurelstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 375									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Freund"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 10337 name = "Housten" }
+	}
+	
+	if = {
+		limit = {
+			state = 372									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Ozarkland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12489 name = "Kleiner Stein" }
+	}
+	
+	if = {
+		limit = {
+			state = 374									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rotmenschen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1806 name = "Tulsa" }
+	}
+	
+	if = {
+		limit = {
+			state = 376									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Mexiko"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4975 name = "Weihnachtsmannsglaube" }
+	}
+	
+	if = {
+		limit = {
+			state = 369									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kentukie"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6696 name = "Bowlingrün" }
+	}
+	
+	if = {
+		limit = {
+			state = 368									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bengfluss"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12501 name = "Nachville" }
+	}
+	
+	if = {
+		limit = {
+			state = 378									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kalifornien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9814 name = "Elgenstadt" }
+		set_province_name = { id = 1562 name = "Sankt-Didakus" }
+		set_province_name = { id = 9671 name = "Sankt-Franziskus" }
+		set_province_name = { id = 9713 name = "Sakramentfurt" }
+	}
+	
+	if = {
+		limit = {
+			state = 377									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Mittlewüste"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 853 name = "Phönixburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 379									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Schneesturm"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 385									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Gorgonenland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3513 name = "Neu-Hamburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 386									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Hermannsland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7315 name = "Siegfriedsheim" }
+	}
+	
+	if = {
+		limit = {
+			state = 473									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Deutsch-Kolumbien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1408 name = "Neu-Köworden" }
+	}
+	
+	if = {
+		limit = {
+			state = 740									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Köworden-Insel"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 471									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Fjordland-Ost"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 463									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Fernisland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 13091 name = "Ankerwurf" }
+	}
+	
+	if = {
+		limit = {
+			state = 739									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Köworden-Insel-Nord"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 690									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nord-Bahamien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 10254 name = "Mehrsaltz" }
+	}
+	
+	if = {
+		limit = {
+			state = 693									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Süd-Bahamien"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 361									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Berlin"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3957 name = "Neu-Berlin" }
+	}
+	
+	if = {
+		limit = {
+			state = 816									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Prinzessin-Viktoria-von-Preußen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7588 name = "Viktoria-von-Preußen-Stadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 380									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Jutaland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4865 name = "Stadt am Salzsee" }
+	}
+	
+	if = {
+		limit = {
+			state = 387									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Juwenlenland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9616 name = "Buhs" }
+	}
+	
+	if = {
+		limit = {
+			state = 382									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Mittelvolk"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1827 name = "Danven" }
+	}
+	
+	if = {
+		limit = {
+			state = 381									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bergetälernfurt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 388									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Bergirgwohnungen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4860 name = "Großefällenburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 470									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Südwest-Kanada"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3010 name = "Edberg" }
+	}
+	
+	if = {
+		limit = {
+			state = 472									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordwest-Kanada"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 469									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Saschwaden"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 383									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Wind-Leuteburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4740 name = "Wächenstadt" }
+		set_province_name = { id = 7834 name = "Töpen" }
+	}
+	
+	if = {
+		limit = {
+			state = 384									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Flachwasser"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12586 name = "Homawen" }
+	}
+	
+	if = {
+		limit = {
+			state = 373									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Schlammiges Wasser Furt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 10717 name = "Flachsburg" }
+		set_province_name = { id = 10370 name = "Frühlingbereich" }
+		set_province_name = { id = 4569 name = "Sankt-Ludwig" }
+	}
+	
+	if = {
+		limit = {
+			state = 392									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Verschlafeneburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1770 name = "Verschlafenestadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 389								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nord-Dakota"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1836 name = "Bismarck" }
+	}
+	
+	if = {
+		limit = {
+			state = X									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Süd-Dakota"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1747 name = "Schnelle-Stadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 395									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Deutsche Krieger Burg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 9450 name = "Heiligtum der Wehrmacht" }
+	}
+	
+	if = {
+		limit = {
+			state = 391									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Trübes Wasser"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1866 name = "Trübes-Wasser-stadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 467									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Südost-Kanada"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4872 name = "Winnenpeng" }
+	}
+	
+	if = {
+		limit = {
+			state = 683									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nordost-Kanada"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 394									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Rauschender-Kanal"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 12357 name = "Milwannen" }
+	}
+	
+	if = {
+		limit = {
+			state = 276									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Süd-Nachstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3778 name = "Nachstadt" }
+		set_province_name = { id = 3775 name = "Stierburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 682									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Nord-Nachstadt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 396									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Westefalen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 1595 name = "Neu-Dortmund" }
+	}
+	
+	if = {
+		limit = {
+			state = 393									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Mecklenburg"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6710 name = "Neu-Rostock" }
+	}
+	
+	if = {
+		limit = {
+			state = 261								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Hessen"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6890 name = "Neu-Frankfurt" }
+		set_province_name = { id = 6855 name = "Neu-Kassel" }
+	}
+	
+	if = {
+		limit = {
+			state = 360									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Dschungelfurt"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6845 name = "Neu-Königsberg" }
+		set_province_name = { id = 11800 name = "Pitsburg" }
+	}
+	
+	if = {
+		limit = {
+			state = 358									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Yorch"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 3878 name = "Neu-Yorch" }
+		set_province_name = { id = 11654 name = "Büffelstadt" }
+	}
+	
+	if = {
+		limit = {
+			state = 359								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Pommern"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6882 name = "Pommern" }
+	}
+	
+	if = {
+		limit = {
+			state = 357									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Germania"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 6732 name = "Bostan" }
+		set_province_name = { id = 9832 name = "Vorsehungstadt" }
+		set_province_name = { id = 12459 name = "Borgen" }
+	}
+	
+	if = {
+		limit = {
+			state = 466									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Kebek"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 332								
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Labradorhund"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 331									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neufundland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 468									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Sankt-Lawrence"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 4345 name = "Neu-Essen" }
+		set_province_name = { id = 12149 name = "Kebek" }
+	}
+	
+	if = {
+		limit = {
+			state = 465									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neu-Brundswich"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+	}
+	
+	if = {
+		limit = {
+			state = 464									
+			NOT = { has_state_flag = state_name_german }
+		}
+		set_state_name = "Neuschottland"
+		
+		set_state_flag = state_name_german
+		clr_state_flag = state_name_polish
+		clr_state_flag = state_name_lithuanian
+		clr_state_flag = state_name_latvian
+		clr_state_flag = state_name_estonian
+		clr_state_flag = state_name_russian
+		clr_state_flag = state_name_ukrainian
+		clr_state_flag = state_name_belarusian
+		clr_state_flag = state_name_czech
+		
+		set_province_name = { id = 7361 name = "Halifax" }
+	}
+}
